@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="grid-floor"></div>
+  <canvas id="particles"></canvas>
+
+  <div class="pokedex-wrapper">
+    <header class="pokedex-header">
+      <div class="logo-row">
+        <div class="pokeball-spin"></div>
+        <h1 class="logo-title">Pokédex</h1>
+      </div>
+      <p class="logo-sub">Busca por nome ou número</p>
+    </header>
+
+    <div class="search-wrap">
+      <input id="pokemon-input" type="text" placeholder="Ex: pikachu, charizard, 25...">
+      <button id="btn-buscar">Buscar</button>
+    </div>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
